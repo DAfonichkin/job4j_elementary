@@ -19,7 +19,7 @@ public class PointTest {
     }
 
     @Test
-    public void when01To10Then2() {
+    public void when01To10Then1dot41() {
         int x1 = 0;
         int y1 = 1;
         int x2 = 1;
@@ -30,7 +30,7 @@ public class PointTest {
     }
 
     @Test
-    public void when0minus1ToMinus10Then2() {
+    public void when0minus1ToMinus10Then1dot41() {
         int x1 = 0;
         int y1 = -1;
         int x2 = -1;
@@ -41,7 +41,7 @@ public class PointTest {
     }
 
     @Test
-    public void when23To32Then2() {
+    public void when23To32Then2dot23() {
         int x1 = 2;
         int y1 = 3;
         int x2 = 0;
